@@ -15,7 +15,6 @@ RUN dotnet run --project Vidyano.SchemaGenerator/Vidyano.SchemaGenerator.csproj 
 
 # Use official nginx image as the base image
 FROM nginx:latest
-LABEL org.opencontainers.image.source="https://github.com/MintPlayer/mintplayer-ng-video-player"
 
 WORKDIR /
 COPY --from=build /App/output /usr/share/nginx/html
