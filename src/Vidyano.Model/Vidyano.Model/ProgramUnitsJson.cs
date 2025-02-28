@@ -62,6 +62,9 @@ public class VidyanoProgramUnitItem
     [Description("What query (list) to show in the right-hand pane")]
     public required JsonReference Query { get; set; }
 
+    [Description("What persistent-object to show in the right-hand pane")]
+    public required JsonReference PersistentObject { get; set; }
+
     [Description("The group this item belongs to")]
     public required JsonReference Group { get; set; }
 }
