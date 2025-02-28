@@ -11,6 +11,7 @@ if (!Directory.Exists(outputDir))
 
 GenerateSchema<VidyanoCultureJson>("culture.schema.json");
 GenerateSchema<VidyanoModelJson>("model.schema.json");
+GenerateSchema<VidyanoPersistentObjectJson>("persistentobject.schema.json");
 GenerateSchema<VidyanoProgramUnitsJson>("programUnits.schema.json");
 GenerateSchema<VidyanoSecurityJson>("security.schema.json");
 GenerateSchema<VidyanoWebsitesJson>("websites.schema.json");
