@@ -13,7 +13,7 @@ public class VidyanoModelJson
     [Description("List of data types")]
     public required Dictionary<string, VidyanoDataType> DataTypes { get; set; }
     public bool Verbose { get; set; }
-    public string ServiceVersion { get; set; }
+    public string? ServiceVersion { get; set; }
 
     [JsonRequired]
     [Description("The model hash")]
@@ -70,8 +70,8 @@ public class VidyanoAction
 
 public class VidyanoDataType
 {
-    [JsonProperty("$id"), JsonRequired]
-    public required string Id { get; set; }
+    [JsonRequired]
+    public required Guid Id { get; set; }
 
     [JsonRequired]
     [Description("Is this a default data type")]
