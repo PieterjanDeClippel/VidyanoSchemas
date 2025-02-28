@@ -31,6 +31,9 @@ public class VidyanoProgramUnit
     [JsonRequired]
     [Description("List of program unit items")]
     public required List<VidyanoProgramUnitItem> Items { get; set; }
+
+    [Description("Automatically open the first item in the group")]
+    public bool OpenFirst { get; set; }
 }
 
 public class VidyanoProgramUnitGroup
