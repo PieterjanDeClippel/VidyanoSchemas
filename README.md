@@ -1,5 +1,10 @@
 # Vidyano schemas
 ## Available schema urls
+- https://vidyano-schemas.mintplayer.com/culture.schema.json
+- https://vidyano-schemas.mintplayer.com/model.schema.json
+- https://vidyano-schemas.mintplayer.com/programUnits.schema.json
+- https://vidyano-schemas.mintplayer.com/security.schema.json
+- https://vidyano-schemas.mintplayer.com/websites.schema.json
 
 ## Notes
 In VS Code the JSON schemas work by default.
