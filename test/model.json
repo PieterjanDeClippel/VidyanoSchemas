@@ -1,0 +1,21 @@
+{
+    "$schema": "../src/model.schema.json",
+    "Actions": {
+        "AddReference": {
+            "RefreshQueryOnCompleted": true,
+            "Offset": 300,
+            "ShowedOn": 2,
+            "IsSystem": true,
+            "DisplayName": {
+                "en": "Add",
+                "nl": "Toevoegen",
+                "fr": "Ajouter"
+            },
+            "IconName": "Add"
+        }
+    },
+    "ModelHash": "aaa",
+    "SeederHash": "bbb",
+    "ServiceVersion": "ccc",
+    "Verbose": false
+}

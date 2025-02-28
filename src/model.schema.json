@@ -1,0 +1,111 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://vidyano-schemas.mintplayer.com/schemas/user.schema.json",
+    "title": "Vidyano model.json",
+    "type": "object",
+    "properties": {
+      "Actions": {
+        "type": "object",
+        "additionalProperties": {
+          "type": "object",
+          "properties": {
+            "ConfirmationMessageKey": {
+              "type": "string"
+            },
+            "Description": {
+              "type": "string"
+            },
+            "DisplayName": {
+              "type": "object",
+              "additionalProperties": {
+                "type": "string"
+              }
+            },
+            "GroupActionName": {
+              "type": "string"
+            },
+            "Icon": {
+              "type": "string"
+            },
+            "IconName": {
+              "type": "string"
+            },
+            "Intent": {
+              "type": "integer"
+            },
+            "IsPinned": {
+              "type": "boolean"
+            },
+            "IsSystem": {
+              "type": "boolean"
+            },
+            "KeepSelectionOnRefresh": {
+              "type": "boolean"
+            },
+            "Offset": {
+              "type": "integer"
+            },
+            "Options": {
+              "type": "object",
+              "additionalProperties": {
+                "type": "string"
+              }
+            },
+            "RefreshQueryOnCompleted": {
+              "type": "boolean"
+            },
+            "SelectionRule": {
+              "type": "string"
+            },
+            "ShowedOn": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "Offset",
+            "ShowedOn",
+            "DisplayName",
+            "IconName"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "DataTypes": {
+        "additionalProperties": {
+          "properties": {
+            "$id": {
+              "type": "string"
+            },
+            "IsSystem": {
+              "type": "boolean"
+            },
+            "CanSort": {
+              "type": "boolean"
+            },
+            "CanFilter": {
+              "type": "boolean"
+            },
+            "CanListDistincts": {
+              "type": "boolean"
+            }
+          }
+        }
+      },
+      "Verbose": {
+        "type": "boolean"
+      },
+      "ServiceVersion": {
+        "type": "string"
+      },
+      "ModelHash": {
+        "type": "string"
+      },
+      "SeederHash": {
+        "type": "string"
+      }
+    },
+
+    "required": ["Actions", "Verbose", "ServiceVersion", "ModelHash", "SeederHash"],
+    "additionalProperties": false
+  }
+  
