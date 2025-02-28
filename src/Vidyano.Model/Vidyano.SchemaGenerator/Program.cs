@@ -2,7 +2,7 @@
 using System;
 using Vidyano.Model;
 
-var generator = new JSchemaGenerator();
+var generator = new JSchemaGenerator { DefaultRequired = Newtonsoft.Json.Required.Default };
 var schema = generator.Generate(typeof(VidyanoModelJson));
 
 var outputDir = "output";
