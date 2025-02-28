@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35818.85 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vidyano.Model", "Vidyano.Model\Vidyano.Model.csproj", "{08B3CC2A-7F94-4963-9390-F54560CE1F27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vidyano.SchemaGenerator", "Vidyano.SchemaGenerator\Vidyano.SchemaGenerator.csproj", "{58911A21-DB99-4AC4-AEFD-259BD0DE9FE9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08B3CC2A-7F94-4963-9390-F54560CE1F27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08B3CC2A-7F94-4963-9390-F54560CE1F27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08B3CC2A-7F94-4963-9390-F54560CE1F27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08B3CC2A-7F94-4963-9390-F54560CE1F27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58911A21-DB99-4AC4-AEFD-259BD0DE9FE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58911A21-DB99-4AC4-AEFD-259BD0DE9FE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58911A21-DB99-4AC4-AEFD-259BD0DE9FE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58911A21-DB99-4AC4-AEFD-259BD0DE9FE9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BBDF42F2-B44B-453B-8E22-AFC965712BD0}
+	EndGlobalSection
+EndGlobal
